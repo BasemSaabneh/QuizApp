@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="name">Enter Your Name</string>
+    <string name="start">Start</string>
+    <string name="welcome">Welcome to Quiz App</string>
+
+    <!--  Question # 1-->
+    <string name="q1"> Q#1: Forest is to tree as tree is to ?  2 Marks </string>
+    <string name="q1a1">Plant</string>
+    <string name="q1a2">Leaf</string>
+    <string name="q1a3">Mangrove</string>
+
+    <!--  Question # 2-->
+    <string name="q2">Q#2:  Which one of the four is least like the other four? 2 Marks </string>
+    <string name="q2a1">Dog</string>
+    <string name="q2a2">Mouse</string>
+    <string name="q2a3">Lion</string>
+    <string name="q2a4">Snake</string>
+
+    <!--  Question # 3-->
+    <string name="q3">Q#3: Which number should come next in the series 1 - 1 - 2 - 3 - 5 - 8 - 13 _ ? 2 Marks </string>
+    <string name="q3a1">21</string>
+    <string name="q3a2">6</string>
+    <string name="q3a3">23</string>
+    <string name="q3a4">11</string>
+
+    <!--  Question # 4-->
+    <string name="q4"> Q#4: Which of the following can be arranged into a 5-letter English word / Select 2 Answers ? 2 Marks</string>
+    <string name="q4a1">H R G S T</string>
+    <string name="q4a2">R I L S A</string>
+    <string name="q4a3">T O O M T</string>
+    <string name="q4a4">W Q R G S</string>
+
+    <!--  Question # 5-->
+    <string name="q5"> Q#5: If 10 people can do a piece of work in 5 days, working 2 hours a day, how long will 2 people take to do the same work, working 5 hours a day? ? 2 Marks</string>
+    <string name="q5Correct">10</string>
+
+    <string name="finish">Check Result</string>
+    <string name="try_oop">Try OOP</string>
+    <string name="total_mark">Total Mark</string>
+    <string name="qu1">Question #1</string>
+    <string name="qu2">Question #2</string>
+    <string name="qu3">Question #3</string>
+    <string name="qu4">Question #4</string>
+    <string name="qu5">Question #5</string>
+    <string name="qu6">Question #6</string>
+
+    <string name="finish_msg">Welcome  ! - </string>
+
+    <string name="name_check_msg">Please Enter Your Name  !  </string>
+
+    <string name="excellent">Excellent Work </string>
+    <string name="vgood">Very Good</string>
+    <string name="good">Good</string>
+    <string name="faild">Failed</string>
+
+    <string name="checkbox_selection_msg">Only 2 Selections are Allowed</string>
+
+</resources>

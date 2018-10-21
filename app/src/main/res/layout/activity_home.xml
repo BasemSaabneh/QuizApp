@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMain"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/q" />
+
+        <View
+            android:id="@+id/vw"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sep_height"
+            android:layout_marginTop="@dimen/padding_top"
+            android:layout_below="@id/img"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vw"
+            android:padding="@dimen/padding_right"
+            android:textColor="@color/primary_text"
+            android:text="@string/name"
+            android:textSize="@dimen/text_font" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvName"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/text_font" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etName"
+            android:layout_margin="@dimen/margin"
+            android:background="@color/btn"
+            android:text="@string/start" />
+
+    </RelativeLayout>
+</ScrollView>

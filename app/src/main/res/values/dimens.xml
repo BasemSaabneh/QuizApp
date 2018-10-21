@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_font">35sp</dimen>
+    <dimen name="text_font">24sp</dimen>
+    <dimen name="question_font">24sp</dimen>
+    <dimen name="mark_font">14sp</dimen>
+
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding_bottom">5dp</dimen>
+
+    <dimen name="margin">15dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+
+    <dimen name="img_width">300dp</dimen>
+    <dimen name="img_height">300dp</dimen>
+    <dimen name="sep_height">1dp</dimen>
+
+</resources>
